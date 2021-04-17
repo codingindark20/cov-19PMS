@@ -1,0 +1,5 @@
+
+Date : 2021-04-17	Time : 09:21:03
+0	Hari Bahadur	57	O-	ATO	T1 : +ve	NW
+1	Madan Bahadur	58	O+	ACC	T1 : -ve	QDFR	T2 : -ve	QDFR	T3 : +ve	ICU
+2	Krishna Bahadur	60	AB+	SID	T1 : -ve	HQFR	T2 : -ve	HQFR	T3 : -ve	RU
