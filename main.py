@@ -2,7 +2,8 @@
 #NP000534
 
 
-#This is sourcecode of COVID-19 Patient Management System
+#This is sourcecode of COVID-19 Patient Management System 
+#This system handles, display and edit patient data
 
 
 #FILE
@@ -236,8 +237,7 @@ def settingChng():
 
 # replace all occurrences of 'ACTIVE' with 'RECOVERED' 
         for i, line in enumerate(fileinput.input('data.txt', inplace=1)):
-            sys.stdout.write(line.replace('ACTIVE', 'RECOVERED'))  # replace 'sit' and write
-
+            sys.stdout.write(line.replace('ACTIVE', 'RECOVERED'))  
     print("\nData changed succesfully!\n")
     view = int(input("Press 1 to view new data : "))
     if view == 1:
@@ -339,4 +339,9 @@ elif option == 4:
 
 else:
     print("Sorry! your input is wrong! Please try again.")
+    
+   
+   #END OF PROGRAM
+   #Created by : Rochak Rupakheti
+   #website >> www.rochakrupakheti.com.np
     
