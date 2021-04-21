@@ -18,6 +18,7 @@ today = date.today()
 t = time.localtime()
 now = time.strftime("%H:%M:%S",t)
 counter = itertools.count()
+
 def patientRegistration():
     file.write("\nDate : "+str(today)+"\tTime : "+str(now)+"\n")
     print("\nThis is New Patient Registration System\n")
@@ -236,8 +237,8 @@ def settingChng():
     if lineno == 1:
 
 # replace all occurrences of 'ACTIVE' with 'RECOVERED' 
-        for i, line in enumerate(fileinput.input('data.txt', inplace=1)):
-            sys.stdout.write(line.replace('ACTIVE', 'RECOVERED'))  
+    	for i, line in enumerate(fileinput.input('data.txt', inplace=1)):
+        	sys.stdout.write(line.replace('ACTIVE', 'RECOVERED'))  
     print("\nData changed succesfully!\n")
     view = int(input("Press 1 to view new data : "))
     if view == 1:
